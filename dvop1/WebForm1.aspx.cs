@@ -16,7 +16,7 @@ namespace dvop1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Label1.Text = DateTime.Now.ToLongTimeString();
+            Label1.Text = "today: 03/15" +DateTime.Now.ToLongTimeString();
         }
     }
 }
